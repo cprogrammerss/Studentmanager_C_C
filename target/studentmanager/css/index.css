@@ -1,0 +1,25 @@
+/* 导航栏容器 */
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-image: url("../picture/background.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center; /* 设置整个页面内容居中 */
+}
+
+h1 {
+    color: #0fdbe3;
+    font-size: 50px;
+    text-decoration: underline;
+    margin-top: 150px; /* 顶部边距，可以根据需要调整 */
+}
+
+/* 鼠标悬停效果 */
+ a:hover {
+    background-color: #ddd;
+    color: black;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee   http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <display-name>showStudent</display-name>
+    <servlet-name>showStudentServlet</servlet-name>
+    <servlet-class>src.control.ShowStudentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ListStudentServlet</servlet-name>
+    <servlet-class>src.control.ListStudentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>insertStudentservlet</servlet-name>
+    <servlet-class>src.control.Insertservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>deleteStudentservlet</servlet-name>
+    <servlet-class>src.control.Deleteservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>updateStudentservlet</servlet-name>
+    <servlet-class>src.control.Updateservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>doupdateStudentservlet</servlet-name>
+    <servlet-class>src.control.DoUpdateservlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>showStudentServlet</servlet-name>
+    <url-pattern>/showStudent.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ListStudentServlet</servlet-name>
+    <url-pattern>/ListStudentServlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>insertStudentservlet</servlet-name>
+    <url-pattern>/InsertStudentservlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteStudentservlet</servlet-name>
+    <url-pattern>/DeleteStudentservlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updateStudentservlet</servlet-name>
+    <url-pattern>/UpdateStudentservlet.to</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doupdateStudentservlet</servlet-name>
+    <url-pattern>/DoUpdatStudenteservlet.do</url-pattern>
+  </servlet-mapping>
+
+
+</web-app>
